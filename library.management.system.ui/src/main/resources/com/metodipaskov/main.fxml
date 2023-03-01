@@ -31,17 +31,17 @@
             <Font size="25.0" />
          </font>
       </Label>
-      <Button layoutX="202.0" layoutY="404.0" mnemonicParsing="false" onAction="#logIn" prefHeight="30.0" prefWidth="67.0" text="LogIn">
+      <Button layoutX="310.0" layoutY="423.0" mnemonicParsing="false" onAction="#logIn" prefHeight="30.0" prefWidth="67.0" text="Log In">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <Button layoutX="411.0" layoutY="404.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="67.0" text="Exit">
+      <Button layoutX="310.0" layoutY="489.0" mnemonicParsing="false" onAction="#exit" prefHeight="30.0" prefWidth="67.0" text="Exit">
          <font>
             <Font size="14.0" />
          </font>
       </Button>
-      <ImageView fitHeight="236.0" fitWidth="298.0" layoutX="194.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="256.0" fitWidth="333.0" layoutX="179.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@lib_main.jpg" />
          </image>

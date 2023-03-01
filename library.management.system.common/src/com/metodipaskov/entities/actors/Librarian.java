@@ -31,4 +31,9 @@ public class Librarian extends Staff {
         super.printInfo();
         System.out.println("Office number: " + this.officeNumber);
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + System.lineSeparator() + "Office number: " + this.officeNumber;
+    }
 }

@@ -100,4 +100,16 @@ public abstract class Person {
         System.out.println("Phone Number: " + this.phoneNumber);
         System.out.println("Email address: " + this.email);
     }
+
+    @Override
+    public String toString() {
+        return "\nUser's details are:" + System.lineSeparator() +
+                "====================" + System.lineSeparator() +
+                "ID: " + this.id + System.lineSeparator() +
+                "First Name: " + this.firstName + System.lineSeparator() +
+                "Last Name: " + this.lastName + System.lineSeparator() +
+                "Address: " + this.address + System.lineSeparator() +
+                "Phone Number: " + this.phoneNumber + System.lineSeparator() +
+                "Email address: " + this.email;
+    }
 }

@@ -78,4 +78,11 @@ public class Borrower extends Person {
         System.out.println("Loans available: " + (loans.size() > 0 ? "yes" : "no"));
         System.out.println("Hold requests available: " + (holdRequests.size() > 0 ? "yes" : "no"));
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + System.lineSeparator() +
+                "Loans available: " + (loans.size() > 0 ? "yes" : "no") + System.lineSeparator() +
+                "Hold requests available: " + (holdRequests.size() > 0 ? "yes" : "no");
+    }
 }

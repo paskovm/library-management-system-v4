@@ -1,7 +1,6 @@
 package com.metodipaskov;
 
 
-import com.metodipaskov.entities.Library;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

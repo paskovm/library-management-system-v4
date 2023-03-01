@@ -22,4 +22,9 @@ public class Staff extends Person {
         super.printInfo();
         System.out.println("Salary: $" + this.salary);
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + System.lineSeparator() + "Salary: $" + this.salary;
+    }
 }

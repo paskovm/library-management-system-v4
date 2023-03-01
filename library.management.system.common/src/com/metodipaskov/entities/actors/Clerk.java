@@ -31,4 +31,9 @@ public class Clerk extends Staff {
         super.printInfo();
         System.out.println("Desk number: " + this.deskNumber);
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + System.lineSeparator() + "Desk number: " + this.deskNumber;
+    }
 }
