@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="552.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="41.0" layoutY="147.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Search a&#10;Book " textAlignment="CENTER" />
+      <Button layoutX="150.0" layoutY="147.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Place a &#10;Book&#10;on hold" textAlignment="CENTER" />
+      <Button layoutX="262.0" layoutY="147.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Check&#10;personal &#10;info of &#10;Borrower" textAlignment="CENTER" />
+      <Button layoutX="373.0" layoutY="147.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Check &#10;total fines&#10;of Borrower" textAlignment="CENTER" />
+      <Button layoutX="478.0" layoutY="147.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Check hold &#10;requests&#10;queue of a&#10;book" textAlignment="CENTER" />
+      <Button layoutX="232.0" layoutY="433.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="119.0" text="Log Out" />
+      <MenuBar layoutY="-3.0" prefHeight="16.0" prefWidth="603.0">
+         <menus>
+            <Menu mnemonicParsing="false" text="File">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="Close" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Help">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="About" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <Label alignment="CENTER" layoutX="1.0" layoutY="50.0" prefHeight="30.0" prefWidth="603.0" text="Welcome to Clerks Portal">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="41.0" layoutY="276.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Check out&#10;(borrow)&#10;a Book" textAlignment="CENTER" />
+      <Button layoutX="150.0" layoutY="276.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Check in&#10;(return)&#10;a Book" textAlignment="CENTER" />
+      <Button layoutX="269.0" layoutY="276.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Renew &#10;a Book" textAlignment="CENTER" />
+      <Button layoutX="373.0" layoutY="276.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Add new&#10;Borrower" textAlignment="CENTER" />
+      <Button layoutX="478.0" layoutY="276.0" mnemonicParsing="false" prefHeight="78.0" prefWidth="82.0" text="Update&#10;Borrowers&#10;info" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
