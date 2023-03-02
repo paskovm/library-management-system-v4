@@ -105,12 +105,13 @@ public class ControllerUpdateUser implements Initializable {
         String emil = email.getText();
         String pass = password.getText();
 
-        long phNum = phoneNumber.getText().length() > 0 ? Long.parseLong(phoneNumber.getText()) : 0;
-        double sal = salaryValue.getText().length() > 0 ? Double.parseDouble(salaryValue.getText()) : 0;
-        int dsk = deskNumberValue.getText().length() > 0 ? Integer.parseInt(deskNumberValue.getText()) : 0;
-        int off = officeNumberValue.getText().length() > 0 ? Integer.parseInt(officeNumberValue.getText()) : 0;
-
         try {
+            long phNum = phoneNumber.getText().length() > 0 ? Long.parseLong(phoneNumber.getText()) : 0;
+            double sal = salaryValue.getText().length() > 0 ? Double.parseDouble(salaryValue.getText()) : 0;
+            int dsk = deskNumberValue.getText().length() > 0 ? Integer.parseInt(deskNumberValue.getText()) : 0;
+            int off = officeNumberValue.getText().length() > 0 ? Integer.parseInt(officeNumberValue.getText()) : 0;
+
+
             if ((fname != null && !fname.isEmpty() && !fname.isEmpty()) ||
                     (lname != null && !lname.isBlank() && !lname.isEmpty()) ||
                     (addr != null && !addr.isBlank() && !addr.isEmpty()) ||
