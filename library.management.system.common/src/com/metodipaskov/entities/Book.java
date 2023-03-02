@@ -80,4 +80,15 @@ public class Book {
         System.out.println("Genre: " + this.genre);
         System.out.println("The book is available for loan: " + (!isIssued ? "yes" : "no"));
     }
+
+    @Override
+    public String toString() {
+        return "\nBook details are:" + System.lineSeparator() +
+                "===================" + System.lineSeparator() +
+                "Book ID: " + bookId + System.lineSeparator() +
+                "Title: " + this.title + System.lineSeparator() +
+                "Author: " + this.author + System.lineSeparator() +
+                "Genre: " + this.genre + System.lineSeparator() +
+                "The book is available for loan: " + (!isIssued ? "yes" : "no");
+    }
 }

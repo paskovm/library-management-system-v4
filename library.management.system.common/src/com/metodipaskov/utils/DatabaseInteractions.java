@@ -81,11 +81,11 @@ public class DatabaseInteractions {
 
             String sql = null;
 
-            if (fName != null) {
+            if (fName != null && !fName.isEmpty() && !fName.isBlank()) {
                 sqlPt2 = "FirstName = \"" + fName + "\"";
             }
 
-            if (lName != null) {
+            if (lName != null && !lName.isEmpty() && !lName.isBlank()) {
                 if (sqlPt2.isEmpty()) {
                     sqlPt2 = "LastName = \"" + lName + "\"";
                 } else {
@@ -93,7 +93,7 @@ public class DatabaseInteractions {
                 }
             }
 
-            if (address != null) {
+            if (address != null && !address.isEmpty() && !address.isBlank()) {
                 if (sqlPt2.isEmpty()) {
                     sqlPt2 = "Address = \"" + address + "\"";
                 } else {
@@ -109,7 +109,7 @@ public class DatabaseInteractions {
                 }
             }
 
-            if (email != null) {
+            if (email != null && !email.isEmpty() && !email.isBlank()) {
                 if (sqlPt2.isEmpty()) {
                     sqlPt2 = "Email = \"" + email + "\"";
                 } else {
@@ -117,7 +117,7 @@ public class DatabaseInteractions {
                 }
             }
 
-            if (password != null) {
+            if (password != null && !password.isEmpty() && !password.isBlank()) {
                 if (password.isEmpty()) {
                     sqlPt2 = "Password = \"" + password + "\"";
                 } else {

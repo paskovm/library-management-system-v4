@@ -51,7 +51,7 @@ public class Main extends Application {
 
     private void exit(Stage stage) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setTitle("LogOut");
+        alert.setTitle("Exit");
         alert.setHeaderText("Are you sure you want to exit?");
 
         if (alert.showAndWait().get() == ButtonType.OK) {

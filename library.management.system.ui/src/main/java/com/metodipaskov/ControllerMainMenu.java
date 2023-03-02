@@ -32,7 +32,7 @@ public class ControllerMainMenu {
 
     public void exit(ActionEvent event) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
-        alert.setTitle("LogOut");
+        alert.setTitle("Exit");
         alert.setHeaderText("Are you sure you want to exit?");
 
         if (alert.showAndWait().get() == ButtonType.OK) {
